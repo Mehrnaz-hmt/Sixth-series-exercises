@@ -15,9 +15,19 @@ body {
     padding-top: 5%;
    
 }
-.unkown {
+/* .unkown {
     display: flex;
    font-size: larger;
    font-weight: bolder;
    text-align: center;
+} */
+.rectangle {
+    width: 30px;
+    height: 10px;
+    background-color: black;
+}
+.unknown{
+    text-align: center;
+    color: blanchedalmond;
+    padding: 10px;
 }
