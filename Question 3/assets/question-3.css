@@ -63,3 +63,16 @@ background-color: #FFFBFB;
     font-size:18px;
     color: #948c8c;
 }
+.woods-box-under-img p{
+margin-bottom: 40px;        
+}
+.read-more {
+    width:130px;
+    height:50px;
+    background-color: #FFFBFB;
+    border:0.5px solid rgb(167, 162, 162); 
+}
+
+.comments {
+    font-size: ;
+}
