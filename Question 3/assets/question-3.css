@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin-top:0;
     background-color: #F1F1F1;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .container {
  display:flex;
@@ -24,4 +24,42 @@ body {
 
 p {
     margin-top: 0;  
+}
+/* ---------------------------------------------------------------------------------- */
+.cont1 {
+    margin-top: 4rem;
+    margin-left: 1%;
+    /* margin-right: 1%; */
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.woods-box-under-img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.woods-box {
+width:55%;
+height: auto;
+background-color: #FFFBFB;
+}
+.woods-img {
+    width: 100%;
+}
+
+.title-description {
+    font-size: 24px;
+    font-weight: lighter;
+    /* border: 1px grey solid; */
+    margin-top: 5px;
+}
+.title-heading {
+    font-size: 27px;
+    /* border: 1px grey solid; */
+}
+.title-description span{
+    font-weight: lighter;
+    font-size:18px;
+    color: #948c8c;
 }
