@@ -25,7 +25,7 @@ body {
 p {
     margin-top: 0;  
 }
-/* ---------------------------------------------------------------------------------- */
+/* __________________________________________________________________________________ */
 .cont1 {
     margin-top: 4rem;
     margin-left: 3%;
@@ -42,6 +42,7 @@ p {
     width:65%;
     height: auto;
     background-color: #FFFBFB;
+    box-shadow: 5px 5px 5px #CCCCCC;
     }
 .woods-box-under-img {
     padding-left: 10px;
@@ -68,10 +69,10 @@ p {
 .woods-box-under-img p{
 margin-bottom: 40px;        
 }
-.read-more-comments {
+.read-more-comments1 {
     display: flex;
 }
-.read-more {
+.read-more1 {
     width:130px;
     height:50px;
     background-color: #FFFBFB;
@@ -79,8 +80,10 @@ margin-bottom: 40px;
     margin-right:70%;
     margin-bottom: 30px;
 }
-
-.comments {
+.read-more1:hover{
+    background-color: #CCCCCC;
+}
+.comments1 {
     font-size: 24px;
     align-self: flex-end;
     margin-bottom: 30px;
@@ -100,15 +103,15 @@ margin-bottom: 40px;
     padding-right:8px;
     text-align: center;  
 }
-
+/* ___________________________________________________________________________________ */
 .bridge-box {
     display: flex;
     flex-direction: column;
     width: 65%;
     height: auto;
-    border: 1px solid black;
     margin-top: 40px;
     background-color: #FFFBFB;
+    box-shadow: 5px 5px 5px #CCCCCC;
 }
 .bridge-box-under-img {
     padding-left: 10px;
@@ -120,4 +123,33 @@ height: auto;
 }
 .blog-entry {
     font-size: 27px;
+}
+.read-more-comments2 {
+    display: flex;
+}
+.read-more2 {
+    width:130px;
+    height:50px;
+    background-color: #FFFBFB;
+    border:0.5px solid rgb(167, 162, 162);
+    margin-right:70%;
+    margin-bottom: 30px;
+}
+.read-more2:hover{
+    background-color:#CCCCCC;
+}
+.comments2 {
+    font-size: 24px;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+.black-circle {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    align-self: flex-end;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 30px;
 }
