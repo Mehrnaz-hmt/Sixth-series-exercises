@@ -29,7 +29,6 @@ p {
 .cont1 {
     margin-top: 4rem;
     margin-left: 1%;
-    /* margin-right: 1%; */
     display:flex;
     width: 100%;
     flex-direction: row;
@@ -40,7 +39,7 @@ p {
     padding-right: 10px;
 }
 .woods-box {
-width:55%;
+width:65%;
 height: auto;
 background-color: #FFFBFB;
 }
@@ -66,13 +65,32 @@ background-color: #FFFBFB;
 .woods-box-under-img p{
 margin-bottom: 40px;        
 }
+.read-more-comments {
+    display: flex;
+}
 .read-more {
     width:130px;
     height:50px;
     background-color: #FFFBFB;
-    border:0.5px solid rgb(167, 162, 162); 
+    border:0.5px solid rgb(167, 162, 162);
+    margin-right:70%;
 }
 
 .comments {
-    font-size: ;
+    font-size: 24px;
+    align-self: flex-end;
+}
+.black-box {
+    width:20px;
+    height: 20px;
+    background-color: black;
+    align-self: flex-end;
+    margin-left:10px;
+    margin-right:10px;
+}
+.zero{
+    color: blanchedalmond;
+    padding-left:8px;
+    padding-right:8px;
+    text-align: center;  
 }
