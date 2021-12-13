@@ -28,9 +28,10 @@ p {
 /* ---------------------------------------------------------------------------------- */
 .cont1 {
     margin-top: 4rem;
-    margin-left: 1%;
-    display:flex;
+    margin-left: 2%;
+    margin-right: 2%;
     width: 100%;
+    display:flex;
     flex-direction: row;
 }
 
@@ -39,9 +40,10 @@ p {
     padding-right: 10px;
 }
 .woods-box {
-width:65%;
+width:40%;
 height: auto;
 background-color: #FFFBFB;
+flex:2;
 }
 .woods-img {
     width: 100%;
@@ -93,4 +95,17 @@ margin-bottom: 40px;
     padding-left:8px;
     padding-right:8px;
     text-align: center;  
+}
+/* ----------------------------------------------------------------------------- */
+.avatar {
+    display: flex;
+    flex-direction: column;
+    /* flex:1; */
+    background-color: lightpink;
+    width: 30%;
+    height: auto;
+}
+.avatar-img {
+    width: 95%;
+    padding-left:20px;
 }
