@@ -1,14 +1,28 @@
-body {
+html{
     padding: 0;
     margin-top:0;
+    margin-left:0;
+    margin-right: 0;
     background-color: #F1F1F1;
     overflow-x: hidden;
 }
+body {
+    padding: 0;
+    margin-top:0;
+    margin-left:0;
+    margin-right: 0;
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
 .container {
  display:flex;
+ margin-right:0;
+ margin-left:0;
  padding-top: 2%;
  flex-direction: column;
  align-items: center;
+ 
 }
 
 .rectangle {
@@ -36,6 +50,7 @@ p {
     padding-right: 20px;
     flex-direction: row;
    justify-content: space-between;
+  
     
 }
 .woods-box {
@@ -112,6 +127,7 @@ margin-bottom: 40px;
     margin-top: 40px;
     background-color: #FFFBFB;
     box-shadow: 5px 5px 5px #CCCCCC;
+    margin-bottom: 6%;
 }
 .bridge-box-under-img {
     padding-left: 10px;
@@ -152,4 +168,36 @@ height: auto;
     margin-left:10px;
     margin-right:10px;
     margin-bottom: 30px;
+}
+.footer {
+    background-color: #616161;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 0;
+}
+.previous {
+    width: 100px;
+    height: 55px;
+    background-color: #555252;
+    color: rgb(170, 164, 164);
+    margin-top: 30px;
+    margin-left: 20px;
+    border: #818181;
+}
+.next {
+    width: 100px;
+    height: 55px;
+    background-color: #242323;
+    color: rgb(170, 164, 164);
+    margin-top: 30px;
+    margin-left: 3px;
+    border: #818181;
+}
+.footer p {
+    margin-left: 20px;
+    margin-top:40px;
+    color: rgb(252, 245, 237);
+}
+.footer p a {
+    color: rgb(252, 245, 237); 
 }
