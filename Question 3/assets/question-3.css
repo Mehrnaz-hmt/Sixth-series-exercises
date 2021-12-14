@@ -67,6 +67,14 @@ p {
    justify-content: space-between;
   border: 2px rgb(42, 216, 193) solid; 
 }
+
+.popular-posts-box ul li {
+    list-style-type:none;
+}
+.workshop-img {
+    width:50px;
+    height:50px;
+}
 .woods-box {
     width:65%;
     height: auto;
@@ -149,44 +157,80 @@ margin-bottom: 40px;
 .my-name {
     font-size: 27px;
 }
-/* ____________________________Popular posts__________________________________________ */
-/* .popular-posts-box {
-    width: 20%;
+/*-----------------------------popular post box-----------------------------------*/
+.popular-posts-box {
+    width:100%;
     height: auto;
-    background-color: #FFFBFB;
+    background-color:#FFFBFB ;
+    margin-right:30px;
+    box-shadow: 5px 5px 5px #CCCCCC;
+    margin-top: 20px;
+}
+.popular-post-box-under {
+    background-color: #CCCCCC;
+    padding: 15px;
+    height: 15%;
+    font-size: 20px;
+    font-weight: lighter;
+    /* justify-content: center; */
+}
+.popular-post-img {
+    width:20%;
+    height: 20%;
+}
+.lorem {
+    padding-top: 0;
+}
+.li-1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+.lorem-span {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.grey-line {
+    border: rgb(204, 198, 198) 0.05px solid;
+    width:100%;
+}
+.li-2 {
+    display: flex;
+    padding-bottom: 20px; 
+    padding-top:20px;
+}
+.ipsum-span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.li-3 {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+/* .dorum {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dorum-span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+}
 /* ___________________________Bridge box______________________________________________ */
 .bridge-box {
     display: flex;
