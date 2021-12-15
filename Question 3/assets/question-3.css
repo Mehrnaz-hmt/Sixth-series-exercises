@@ -77,7 +77,7 @@ p {
 }
 .woods-box {
     width:65%;
-    /* max-height:auto ; */
+    height: auto;
     background-color: #FFFBFB;
     box-shadow: 5px 5px 5px #CCCCCC;
     margin-bottom: 25%;
