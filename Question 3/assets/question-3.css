@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../Font/Raleway/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("../Font/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+    
+}
 html{
     padding: 0;
     margin-top:0;
@@ -14,6 +20,7 @@ body {
     background-color: #F1F1F1;
     overflow-x: hidden;
     margin-bottom: 0;
+    font-family:Raleway,sans-serif;
 }
 .container {
  display:flex;
