@@ -1,0 +1,398 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../Font/Raleway/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("Font/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+    
+}
+
+html {
+    padding: 0;
+    margin-top:0;
+    margin-left:0;
+    margin-right: 0;
+    overflow-x: hidden; 
+}
+
+body {
+    background-color:#F1F1F1;
+    padding: 0;
+    margin-top:0;
+    margin-left:0;
+    margin-right: 0;
+    overflow-x: hidden;
+    margin-bottom: 0;
+    font-family:Raleway,sans-serif;
+}
+
+.header p {
+   text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+.rectangle {
+    width: 30px;
+    height: 10px;
+    background-color: black;
+}
+.unknown{
+    text-align: center;
+    color: blanchedalmond;
+    padding: 10px;
+}
+.container p {
+    text-align: center;
+}
+.parent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.child1 {
+    width: 60%;
+    color: rgb(17, 16, 16);
+    margin: 30px;
+}
+.child2 {
+    width: 30%;
+    height: 100vh;
+    margin:30px;
+}
+
+.woods-box {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #FFFBFB;
+    box-shadow: 5px 5px 5px #CCCCCC;
+    margin-bottom: 4%;
+    }
+
+  
+.woods-box-under-img {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.title-heading {
+    font-size: 27px;
+}
+.title-description {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 5px;
+    
+}
+.title-description span{
+    font-weight: lighter;
+    font-size:18px;
+    color: #948c8c;
+}
+
+.read-more-comments1 {
+    display: flex;
+}
+.read-more1 {
+    width:130px;
+    height:50px;
+    background-color: #FFFBFB;
+    border:0.5px solid rgb(19, 18, 18);
+    margin-right:70%;
+    margin-bottom: 30px;
+}
+.read-more1:hover{
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+.comments1 {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+.black-box {
+    width:20px;
+    height: 20px;
+    background-color: black;
+    align-self: flex-end;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 30px;
+}
+.zero{
+    color: blanchedalmond;
+    padding-left:8px;
+    padding-right:8px;
+    text-align: center;  
+}
+/*----------------------------------------Bridge box-----------------------------------*/
+/*----------------------------------------Bridge box----------------------------------*/
+/*-----------------------------------------Bridge box--------------------------------*/
+.bridge-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #FFFBFB;
+    box-shadow: 5px 5px 5px #CCCCCC;
+    margin-bottom: 6%;
+    float: left;
+   
+}
+
+.bridge-box-img {
+    width: 100%;
+    height: auto;
+}
+.bridge-box-under-img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blog-entry {
+        font-size: 27px;
+}
+/*-------------------------------------------read more------------------------*/
+/*-------------------------------------------read more------------------------*/
+/*-------------------------------------------read more------------------------*/
+
+.read-more-comments-1 {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.read-more-1 {
+    font-size: 15px;
+    font-weight: normal;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 0.5px rgb(189, 184, 184) solid;
+    border-radius: 3px;
+}
+.comments-black-box {
+    margin-top:3%;
+}
+.read-more-comments-2 {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+.read-more-2 {
+    font-size: 15px;
+    font-weight: normal;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 0.5px rgb(189, 184, 184) solid;
+    border-radius: 3px;
+}
+.circle-box {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    align-self: flex-end;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 30px;
+}
+.comments-circle-box {
+    margin-top:3%;
+}
+.comments1,.comments2 {
+    font-size: large;
+    font-weight: bold;
+}
+/*--------------------------------------Tags-------------------------------------*/
+.tags-box {
+    width:100%;
+    height: auto;
+    background-color:#FFFBFB ;
+    border: 0.5px solid rgb(211, 205, 205);
+    box-shadow: 5px 5px 5px #CCCCCC;
+    margin-top: 20px;            /*this is important!*/
+}
+.tags-p {
+    padding-left: 2px;
+    padding-right:2px;
+}
+.tags-classes {
+    margin: 10px;
+    font-size: small;
+    width: auto;
+    height: auto;
+    background-color: rgb(240, 234, 234);
+}
+#travel {
+    margin: 10px;
+    font-size: small;
+    width: auto;
+    height: auto;
+    background-color : rgb(112, 111, 111);
+}
+/* #travle .tags-classes {
+    margin: 10px;
+    font-size: small;
+    width: auto;
+    height: auto;
+    background-color : rgb(36, 88, 141);
+} */
+
+/*-------------------------------Avatar box-------------------------------------*/
+/*-------------------------------Avatar box-------------------------------------*/
+/*-------------------------------Avatar box-------------------------------------*/
+.avatar-box {
+    width: 100%;
+    height: auto;
+    background-color:#FFFBFB ;
+    display: flex; 
+    flex-direction: column;
+    margin-right:30px;
+    box-shadow: 5px 5px 5px #CCCCCC;
+}
+.avatar-box-under-img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.my-name {
+    font-size: 20px;
+}
+/*-------------------------------Popular post box--------------------------------------*/
+/*-------------------------------Popular post box-------------------------------------*/
+/*-------------------------------Popular post box------------------------------------*/ 
+
+.popular-posts-box {
+    width:100%;
+    height: auto;
+    background-color:#FFFBFB ;
+    border: 0.5px solid rgb(211, 205, 205);
+    box-shadow: 5px 5px 5px #CCCCCC;
+    margin-top: 20px;
+}
+.popular-post-box-under {
+    background-color: #F1F1F1;
+    padding: 5px;
+    height: 1%;
+   
+}
+.popular-post-box-under h4{
+    padding-left:20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.popular-post-img {
+    width:20%;
+    height: 20%;
+}
+#popular-post-img4 {
+    padding-top: 20px;
+}
+.lorem {
+    padding-top: 0;
+}
+.li-1 {
+    display: flex;
+    padding-bottom: 20px;
+   
+}
+li-1:hover {
+    cursor: auto;
+    background-color: #F1F1F1;
+}
+.lorem-span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.grey-line {
+    border: rgb(204, 198, 198) 0.05px solid;
+    width:100%;
+}
+.li-2 {
+    display: flex;
+    padding-bottom: 10px; 
+    padding-top:10px;
+}
+.ipsum-span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.li-3 {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.dorum-span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.li-4 {
+    display: flex;
+    padding-bottom: 20px; 
+}
+.rock-span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.grey-line {
+    border: rgb(204, 198, 198) 0.05px solid;
+    width:100%;
+}
+/*------------------------------------Footer----------------------------------------*/
+/*------------------------------------Footer---------------------------------------*/
+/*------------------------------------Footer--------------------------------------*/
+
+.footer {
+    background-color: #616161;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 0;
+}
+.previous {
+    width: 100px;
+    height: 55px;
+    background-color: #555252;
+    color: rgb(170, 164, 164);
+    margin-top: 30px;
+    margin-left: 20px;
+    border: #818181;
+}
+.previous:hover {
+    cursor:no-drop;
+}
+.next {
+    width: 100px;
+    height: 55px;
+    background-color: #242323;
+    color: rgb(170, 164, 164);
+    margin-top: 30px;
+    margin-left: 3px;
+    border: #818181;
+}
+.footer p {
+    margin-left: 20px;
+    margin-top:40px;
+    color: rgb(252, 245, 237);
+}
+.footer p a {
+    color: rgb(252, 245, 237); 
+}
